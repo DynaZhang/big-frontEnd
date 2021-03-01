@@ -1,4 +1,12 @@
-console.log('zzl')
-console.log('234234')
-console.log('111123123111')
-console.log('123456')
+let obj = {
+  _name: 'zzl',
+  _age: '33',
+  getName () {
+    return this._name
+  },
+  getAge () {
+    this._age
+  }
+}
+
+console.log(obj.getAge())
